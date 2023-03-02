@@ -1,4 +1,4 @@
-print("Hello"[4])
+# print("Hello"[4])
 
 # num_check = len("sting")
 # type(num_check)
@@ -13,10 +13,22 @@ print("Hello"[4])
 #BMI CALCULATOR 
 
 
-height = input("enter your height in m: ")
-weight = input("enter your weight in kg: ")
+# height = input("enter your height in m: ")
+# weight = input("enter your weight in kg: ")
 
 
-BMI_calc = int(weight) /float(height) ** 2
+# BMI_calc = int(weight) /float(height) ** 2
 
-print(int(BMI_calc))
+# print(int(BMI_calc))
+
+#LIFE IN WEEKS
+
+age = input("what is your age?\n")
+total_age = 90 - int(age) 
+age_until_90_years = int(total_age) * 365
+age_until_90_weeks =  int(total_age)* 52
+age_until_90_months = int(total_age) * 12
+
+
+print(f"You have {age_until_90_years} days , {age_until_90_weeks} weeks, and {age_until_90_months} months left.")
+
