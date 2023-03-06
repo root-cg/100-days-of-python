@@ -108,38 +108,70 @@
 
 #Python Pizza
 
-print("Welcome to Python pizza Deliveries!")
-size = input("What size pizza do you want? S, M, Or L \n")
-add_pepperoni = input("Do you want Pepperoni? Y Or N \n")
-extra_cheese = input("Do you want extra cheese? Y or N \n")
+# print("Welcome to Python pizza Deliveries!")
+# size = input("What size pizza do you want? S, M, Or L \n")
+# add_pepperoni = input("Do you want Pepperoni? Y Or N \n")
+# extra_cheese = input("Do you want extra cheese? Y or N \n")
 
 
-small_pizza=15
-medium_pizza=20
-large_pizza=25
-pep_sm = 2
-pep_md_lg =3 
-extra_chese = 1
+# small_pizza=15
+# medium_pizza=20
+# large_pizza=25
+# pep_sm = 2
+# pep_md_lg =3 
+# extra_chese = 1
 
-tracker=0
-
-
-if size.capitalize() == 'S':
-    tracker=small_pizza
-    if add_pepperoni.capitalize() == "Y":
-        tracker += pep_sm
-elif size.capitalize() == 'M':
-    tracker = medium_pizza
-    if add_pepperoni.capitalize() == "Y":
-        tracker += pep_md_lg
-elif size.capitalize() == 'L':
-    tracker = large_pizza
-    if add_pepperoni.capitalize() == "Y":
-        tracker += pep_md_lg
+# tracker=0
 
 
+# if size.capitalize() == 'S':
+#     tracker=small_pizza
+#     if add_pepperoni.capitalize() == "Y":
+#         tracker += pep_sm
+# elif size.capitalize() == 'M':
+#     tracker = medium_pizza
+#     if add_pepperoni.capitalize() == "Y":
+#         tracker += pep_md_lg
+# elif size.capitalize() == 'L':
+#     tracker = large_pizza
+#     if add_pepperoni.capitalize() == "Y":
+#         tracker += pep_md_lg
 
-if extra_cheese.capitalize() == "Y":
-    tracker +=extra_chese
 
-print(f"Your final bill is: {tracker} ..Enjoy your meal :).")
+
+# if extra_cheese.capitalize() == "Y":
+#     tracker +=extra_chese
+
+# print(f"Your final bill is: {tracker} ..Enjoy your meal :).")
+
+
+#logical Operators with rollarcoaster
+
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm ?\n" ))
+age = int(input("what is your age?"))
+bill=0
+
+if height > 120:
+    print("You can ride roallercoaster!")
+    if age <= 12:
+        bill=5
+        print("Children pay $5.")
+    elif( age > 12 and age <= 18):
+        bill=7
+        print("Youth pay $7.")
+    elif(age > 18 and age<45):
+        bill=12
+        print("Adult pay $12.")
+    elif(age >= 45 and age <= 55):
+        bill=0
+        print("Adult pay $0.")
+    
+    want_pic = (input("Do you want click your Picture? It will cost additional $3  Y or N... \n"))
+    if (want_pic.lower() =='y'):
+        bill += 3
+    
+    print(f"Your final amount is {bill}")
+
+else:
+    print("Sorry, You can't Ride roallercoaster!")
