@@ -106,4 +106,40 @@
 # else:
 #     print("Sorry, You can't Ride roallercoaster!")
 
+#Python Pizza
 
+print("Welcome to Python pizza Deliveries!")
+size = input("What size pizza do you want? S, M, Or L \n")
+add_pepperoni = input("Do you want Pepperoni? Y Or N \n")
+extra_cheese = input("Do you want extra cheese? Y or N \n")
+
+
+small_pizza=15
+medium_pizza=20
+large_pizza=25
+pep_sm = 2
+pep_md_lg =3 
+extra_chese = 1
+
+tracker=0
+
+
+if size.capitalize() == 'S':
+    tracker=small_pizza
+    if add_pepperoni.capitalize() == "Y":
+        tracker += pep_sm
+elif size.capitalize() == 'M':
+    tracker = medium_pizza
+    if add_pepperoni.capitalize() == "Y":
+        tracker += pep_md_lg
+elif size.capitalize() == 'L':
+    tracker = large_pizza
+    if add_pepperoni.capitalize() == "Y":
+        tracker += pep_md_lg
+
+
+
+if extra_cheese.capitalize() == "Y":
+    tracker +=extra_chese
+
+print(f"Your final bill is: {tracker} ..Enjoy your meal :).")
