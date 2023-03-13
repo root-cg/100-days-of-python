@@ -25,9 +25,14 @@
 -## F string in Python 
 -print(f"in front of double {quotes} f-string {varibale_name}") !important
 -
--
--
--
+-Python Data Structure
+- PYTHON LIST (States in USA : order and queue)
+-  List --> Order is Kept in List
+--> It is Mutable (we can alter or add any items inside the list )
+-->
+-->
+-->
+
 -
 -
 -
