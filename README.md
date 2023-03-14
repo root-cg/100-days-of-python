@@ -30,14 +30,15 @@
 -  List --> Order is Kept in List
 --> It is Mutable (we can alter or add any items inside the list )
 -->Nested Lists
--->
--->
+-->list index
+--> Random Module
 
--
--
--
--
--
+- ##Loops in Python
+- for loop -- to the list 
+- for loop with range operator
+- range operator --> up to but not including
+<!-- - for number in range(a,b):
+    print(number) -->
 -
 -
 -
