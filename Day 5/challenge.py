@@ -25,21 +25,33 @@
 
 
 
-# =============================================
-##High Score
+# # =============================================
+# ##High Score
 
-# 🚨 Don't change the code below 👇
-student_scores = input("Input a list of student scores ").split()
-for n in range(0, len(student_scores)):
-  student_scores[n] = int(student_scores[n])
-print(student_scores)
-# 🚨 Don't change the code above 👆
+# # 🚨 Don't change the code below 👇
+# student_scores = input("Input a list of student scores ").split()
+# for n in range(0, len(student_scores)):
+#   student_scores[n] = int(student_scores[n])
+# print(student_scores)
+# # 🚨 Don't change the code above 👆
 
-#Write your code below this row 👇
+# #Write your code below this row 👇
 
-score = 0
-for max_score in student_scores:
-  if max_score > score:
-    score = max_score
+# score = 0
+# for max_score in student_scores:
+#   if max_score > score:
+#     score = max_score
 
-print(f"The highest score in the class is: {score}")
+# print(f"The highest score in the class is: {score}")
+
+
+
+#SUM OF ALL EVEN NUMBERS FROM 1 TO 100
+
+
+total=0
+for item in range(1,101):
+    if item % 2 ==0:
+        total += item
+
+print(total)
