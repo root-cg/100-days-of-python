@@ -39,9 +39,9 @@
 - range operator --> up to but not including
 <!-- - for number in range(a,b):
     print(number) -->
--
--
--
+##Functions
+- built-in functions 
+-how to define function and arguments and parameters..
 -
 -
 -
