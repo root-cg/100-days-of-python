@@ -71,7 +71,7 @@ scissors = '''
 
 
 
-#imporoed the game
+#improved the game
 
 game_images = [rock, paper, scissors]
 
