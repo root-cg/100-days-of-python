@@ -16,7 +16,7 @@ def caesar(text, shift, direction):
     elif direction == "encode":
         new_position = position + shift
     plain_text += alphabet[new_position]
-  print(f"The decoded text is {plain_text}")
+  print(f"The {direction}ed text is {plain_text}")
 
 
 #TODO-2: Call the caesar() function, passing over the 'text', 'shift' and 'direction' values.
