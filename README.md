@@ -42,6 +42,16 @@
 ##Functions
 - built-in functions 
 -how to define function and arguments and parameters..
+-function inputs 
+-function outputs (returning)
+-Docstrings 
+## Dictionarie
+-how to define dictionary
+-manipulate dictionary
+-nesting of dict in dict or list of dict
+-key and value pair and how to access each key with its value
+-print vs return 
+-recursion and flags
 -
 -
 -
@@ -51,3 +61,9 @@
 -
 -
 -
+-
+-
+-
+-
+-
+
