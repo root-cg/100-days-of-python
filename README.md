@@ -45,7 +45,7 @@
 -function inputs 
 -function outputs (returning)
 -Docstrings 
-## Dictionarie
+##Dictionarie
 -how to define dictionary
 -manipulate dictionary
 -nesting of dict in dict or list of dict
