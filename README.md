@@ -52,12 +52,11 @@
 -key and value pair and how to access each key with its value
 -print vs return 
 -recursion and flags
--
--
--
--
--
--
+##SCOPE
+-local and global scope 
+-Namespace
+-There is no block scope in PYTHON (if while and for .... They dont follow )
+-global CONSTANTS (Naming convensions make it CAPTALIZE)
 -
 -
 -
