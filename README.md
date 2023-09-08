@@ -58,8 +58,8 @@
 -There is no block scope in PYTHON (if while and for .... They dont follow )
 -global CONSTANTS (Naming convensions make it CAPTALIZE)
 -
--
--
+##Debugging
+-Bug
 -
 -
 -
