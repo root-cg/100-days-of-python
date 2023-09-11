@@ -60,9 +60,13 @@
 -
 ##Debugging
 -Bug
--
--
--
--
--
+-breakpoints
+-old debugging technique (print)
+
+
+##OOP
+-class  -act as a blueprint for creating objects (variables and methods)
+-objects -- what things have(speed) and does (methods --> break )
+-does not allocate memory when class is created but everytime when objects created it gets allocated..
+- PYPI website for python predefined packages....https://pypi.org/
 
