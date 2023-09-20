@@ -73,3 +73,5 @@
 functions as input (without parenthesis)
 HIigher order function when function can take argument as a function
 object state and instances
+class heritance (OOP)
+slicing List and  Tuples
