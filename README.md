@@ -70,3 +70,6 @@
 -does not allocate memory when class is created but everytime when objects created it gets allocated..
 - PYPI website for python predefined packages....https://pypi.org/
 
+functions as input (without parenthesis)
+HIigher order function when function can take argument as a function
+object state and instances
