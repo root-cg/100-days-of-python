@@ -79,3 +79,4 @@ slicing List and  Tuples
 Files 
 file modes - r,w,a
 "with open ("file.txt") as file:" no need to close the file
+file path -- Relative path and Absolute path
